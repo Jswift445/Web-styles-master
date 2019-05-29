@@ -1,0 +1,39 @@
+// =============================================
+// Variables
+// =============================================
+
+//Colors
+$color-primary: #33FFB8;
+$color-primary-light: lighten($color-primary, 10%);
+$color-secondary: #fff;
+
+$black-color: black;
+
+
+//Font
+$font-stack: 'Cairo', sans-serif;
+
+
+
+//layout
+$max-width: 80%;
+$margin: 0px 0px 0px 120px;
+
+
+
+
+//Breakpoints
+$breakpoints: (
+'sm': 480px,
+'xl': 1400px,
+);
+
+//Theme colors
+ $themes: (
+ 'grid__col--12': #33FFB8,
+ 'grid__col--6': #278da4,
+ 'grid__col--3': #BB33FF,
+ 'grid__col--4': #278da4,
+ 'grid__col--7': #ff6666,
+ 'grid__col--5': #green,
+ );

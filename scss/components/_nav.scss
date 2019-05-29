@@ -1,0 +1,15 @@
+// =============================
+// Nav styles
+// =============================
+
+.nav {
+  .nav__item{
+    margin: 25px;
+
+  }
+  .nav__item:hover {
+    background: $color-primary-light;
+    border-radius: 4px;
+
+  }
+}

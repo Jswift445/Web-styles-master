@@ -1,0 +1,28 @@
+// =============================
+// Base styles
+// =============================
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack;
+  width: $max-width;
+}
+
+p{
+  margin-bottom: 1.25em;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+a {
+  color: $black-color;
+  text-decoration: none;
+  &:hover {
+    color: $color-secondary;
+
+  }
+}
