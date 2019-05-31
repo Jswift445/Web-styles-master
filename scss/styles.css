@@ -5,19 +5,21 @@ body {
   font-family: "Cairo", sans-serif;
   width: 80%; }
 
-.container {
-  max-width: 80%;
-  margin: 25px 0px 0px 100px; }
+p {
+  margin-bottom: 1.25em; }
 
-.nav {
-  list-style-type: none; }
-  .nav a {
-    text-decoration: none;
-    color: #000000; }
-    .nav a:hover {
-      color: #fff;
-      background: #66ffca;
-      border: 6px solid; }
+ul {
+  list-style-type: none;
+  text-align: center; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    color: #fff; }
+
+.headline--secondary {
+  color: #66ffca; }
 
 .grid__row {
   padding: 1em 10px;
@@ -115,7 +117,13 @@ body {
   [class^=grid__col] + [class^=grid__col] {
     margin-left: 10px; } }
 
+.nav .nav__item {
+  margin: 25px; }
+.nav .nav__item:hover {
+  background: #66ffca;
+  border-radius: 4px; }
+
 .img--logo {
-  margin: 5px; }
+  margin: 0px 0px 0px 120px; }
 
 /*# sourceMappingURL=styles.css.map */
