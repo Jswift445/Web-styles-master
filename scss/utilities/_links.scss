@@ -1,0 +1,21 @@
+// =======================
+// nav styles
+// =======================
+
+.nav__item a {
+  color: $black-color;
+  text-decoration: none;
+  &:hover {
+    color: $white;
+  }
+
+}
+
+.headline--primary {
+  color: $color-light;
+}
+
+.link{
+  text-decoration: none;
+  color: $color-secondary;
+}

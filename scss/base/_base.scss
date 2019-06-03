@@ -18,20 +18,3 @@ ul {
   list-style-type: none;
   text-align: center;
 }
-.nav__item a {
-  color: $black-color;
-  text-decoration: none;
-  &:hover {
-    color: $color-secondary;
-  }
-
-}
-
-.headline--primary {
-  color: $color-primary-light;
-}
-
-.link{
-  text-decoration: none;
-  color: $color-primary-light ;
-}

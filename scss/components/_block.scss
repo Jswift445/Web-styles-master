@@ -3,7 +3,9 @@
 // =======================
 
 .blockquote {
-  border-left: 6px solid  $color-primary-light;
-  
+  border-left: 6px solid  $color-light;
+  font-size: 20px;
+  font-family: $font-stack-secondary;
   border-radius: 4px;
+  padding-left: 15px;
 }

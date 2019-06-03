@@ -3,15 +3,16 @@
 // =============================================
 
 //Colors
-$color-primary: #33FFB8;
-$color-primary-light: lighten($color-primary, 10%);
-$color-secondary: #fff;
-
+$color: #33FFB8;
+$color-light: lighten($color, 10%);
+$white: #fff;
+$color-secondary: #00FFFF;
 $black-color: black;
 
 
 //Font
 $font-stack: 'Cairo', sans-serif;
+$font-stack-secondary: 'Bree Serif', serif;
 
 
 
@@ -30,10 +31,5 @@ $breakpoints: (
 
 //Theme colors
  $themes: (
- 'grid__col--12': #33FFB8,
- 'grid__col--6': #278da4,
- 'grid__col--3': #BB33FF,
- 'grid__col--4': #278da4,
- 'grid__col--7': #ff6666,
- 'grid__col--5': #green,
+
  );
