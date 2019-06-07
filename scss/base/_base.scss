@@ -7,14 +7,19 @@
 }
 
 body {
-  font-family: $font-stack;
   width: $max-width;
+
+  font-family: $font-stack;
+  margin: $margin-right;
+ 
 }
 
 p{
   margin-bottom: 1.25em;
+
 }
 ul {
   list-style-type: none;
   text-align: center;
+  margin-left: -50px;
 }

@@ -8,28 +8,24 @@ $color-light: lighten($color, 10%);
 $white: #fff;
 $color-secondary: #00FFFF;
 $black-color: black;
+$btn-green: green;
+$btn-green-light: lighten($btn-green, 20%);
+$btn-red: tomato;
+$btn-red-light: lighten($btn-red, 5%);
+$btn-orange: darkorange;
+$btn-purple: purple;
+
+
 
 
 //Font
 $font-stack: 'Cairo', sans-serif;
 $font-stack-secondary: 'Bree Serif', serif;
+$font-style: uppercase;
 
 
 
 //layout
 $max-width: 80%;
-$margin: 0px 0px 0px 120px;
-
-
-
-
-//Breakpoints
-$breakpoints: (
-'sm': 480px,
-'xl': 1400px,
-);
-
-//Theme colors
- $themes: (
-
- );
+$margin-right: 0px 0px 0px 45px;
+$margin-top: 25px 0px 0px 0px;

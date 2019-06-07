@@ -11,11 +11,6 @@
 
 }
 
-.headline--primary {
-  color: $color-light;
-}
-
-.link{
-  text-decoration: none;
-  color: $color-secondary;
+::placeholder {
+  visibility: hidden;
 }
