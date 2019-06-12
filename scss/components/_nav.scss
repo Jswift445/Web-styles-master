@@ -3,12 +3,19 @@
 // =============================
 
 .nav {
+  @include desktop{
+    float: right;
+    display: flex;
+    height: 0px;
+    padding: 1px;
+  }
+
   .nav__item{
     margin: 25px;
     margin-left: -5px;
     flex: 2;
     height: 26px;
-	width: 100%;
+	  width: 100%;
 
   }
   .nav__item:hover {

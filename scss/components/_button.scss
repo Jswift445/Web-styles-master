@@ -7,6 +7,7 @@
 }
 
 .btn{
+
   &--default{
   @extend %btn;
   background-color: $color-secondary;
