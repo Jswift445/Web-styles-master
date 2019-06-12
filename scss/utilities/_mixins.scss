@@ -2,6 +2,10 @@
 // Breakpoints
 // ==========================
 
-@mixin for-desktop {
-  @media (min-width: 1480px) { @content; }
+$desktop-width: 1480px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
 }
