@@ -131,7 +131,7 @@ ul {
   [class^=grid__col] + [class^=grid__col] {
     margin-left: 10px; } }
 
-@media (min-width: 1480px) {
+@media (min-width: 1400px) {
   .nav {
     float: right;
     display: flex;
@@ -189,14 +189,7 @@ h4 {
 .btn--default {
   background-color: #00FFFF;
   text-transform: uppercase; }
-  @media (min-width: 1480px) {
-    .btn--default {
-      float: right;
-      display: block;
-      height: 45px;
-      padding: 1px; } }
 .btn--success {
-  color: #fff;
   background-color: #00e600;
   text-transform: uppercase;
   margin: 25px 0px 0px 0px; }
