@@ -10,7 +10,9 @@ body {
   width: $max-width;
   font-family: $font-stack;
   margin: $margin-right;
-
+  @include desktop{
+    width: 70%;
+  }
 }
 
 p{
