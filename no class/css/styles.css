@@ -2,28 +2,11 @@
   color: black;
   text-decoration: none; }
   .nav__item a:hover {
-    color: #fff;
-    overflow: auto; }
-
-.headline--primary {
-  color: #66ffca; }
-
-.link {
-  text-decoration: none; }
-
-* {
-  box-sizing: border-box; }
-
-body {
-  font-family: "Cairo", sans-serif;
-  width: 80%; }
-
-p {
-  margin-bottom: 1.25em; }
+    color: #fff; }
 
 ul {
-  list-style-type: none;
-  text-align: center; }
+  margin: 0px -35px;
+  list-style-type: none; }
 
 .grid__row {
   padding: 1em 10px;
@@ -34,84 +17,96 @@ ul {
       flex-direction: row; } }
 .grid__col--1 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--1 {
       margin-top: 0;
       flex-basis: 8.3333333333%; } }
 .grid__col--2 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--2 {
       margin-top: 0;
       flex-basis: 16.6666666667%; } }
 .grid__col--3 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--3 {
       margin-top: 0;
       flex-basis: 25%; } }
 .grid__col--4 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--4 {
       margin-top: 0;
       flex-basis: 33.3333333333%; } }
 .grid__col--5 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--5 {
       margin-top: 0;
       flex-basis: 41.6666666667%; } }
 .grid__col--6 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--6 {
       margin-top: 0;
       flex-basis: 50%; } }
 .grid__col--7 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--7 {
       margin-top: 0;
       flex-basis: 58.3333333333%; } }
 .grid__col--8 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--8 {
       margin-top: 0;
       flex-basis: 66.6666666667%; } }
 .grid__col--9 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--9 {
       margin-top: 0;
       flex-basis: 75%; } }
 .grid__col--10 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--10 {
       margin-top: 0;
       flex-basis: 83.3333333333%; } }
 .grid__col--11 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--11 {
       margin-top: 0;
       flex-basis: 91.6666666667%; } }
 .grid__col--12 {
   margin-top: 10px;
-  flex-basis: 100%; }
+  flex-basis: 100%;
+  border-radius: 5px; }
   @media (min-width: 768px) {
     .grid__col--12 {
       margin-top: 0;
@@ -121,24 +116,46 @@ ul {
   [class^=grid__col] + [class^=grid__col] {
     margin-left: 10px; } }
 
+@media (min-width: 1400px) {
+  .nav {
+    float: right;
+    display: flex;
+    margin: 0px 300px; } }
 .nav .nav__item {
   margin: 25px;
+  margin-left: -5px;
   flex: 2;
   height: 26px;
   width: 100%; }
 .nav .nav__item:hover {
   background: #66ffca;
-  border-radius: 4px; }
+  border-radius: 4px;
+  height: 45px;
+  padding: 10px; }
 
-.blockquote {
-  border-left: 6px solid #66ffca;
-  border-radius: 4px; }
+#type {
+  font-weight: bold; }
 
-.container {
-  display: flex;
-  flex-wrap: wrap; }
+input {
+  border: none; }
+
+button {
+  border: none;
+  background: #fff; }
 
 .img--logo {
-  margin: 0px 0px 0px 120px; }
+  margin-left: 115px; }
+  @media (min-width: 1400px) {
+    .img--logo {
+      margin-left: 25px; } }
+
+.img--avatar {
+  margin-left: 87px; }
+
+.img--frame {
+  width: 350px;
+  border: 1px solid gray;
+  padding: 25px;
+  margin: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,20 @@
+// flex set up
+@mixin flexmuscle(
+   $disp: flex,
+    $dir: null,
+    $wrap: null,
+    $just: null) {
+  display: $disp;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
+}
+
+
+// forms
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
