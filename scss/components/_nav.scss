@@ -24,3 +24,22 @@
     padding: 10px;
   }
 }
+
+
+// =======================
+// nav links styles
+// =======================
+
+.nav__item a {
+
+  color: $black-color;
+  text-decoration: none;
+  &:hover {
+    color: $white;
+  }
+
+}
+
+::placeholder {
+  visibility: hidden;
+}

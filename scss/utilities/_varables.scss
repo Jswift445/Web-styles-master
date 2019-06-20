@@ -40,16 +40,3 @@ $colors : (
 8: #ff6633,
 7: #e66,
 );
-
-
-// ==========================
-// Breakpoints
-// ==========================
-
-$desktop-width: 1400px;
-
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
-    @content;
-  }
-}

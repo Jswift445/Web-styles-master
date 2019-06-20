@@ -9,3 +9,15 @@
   flex-wrap: $wrap;
   justify-content: $just;
 }
+
+// ==========================
+// Breakpoints
+// ==========================
+
+$desktop-width: 1400px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
